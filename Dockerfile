@@ -16,6 +16,6 @@ RUN pip install --upgrade pip
 RUN pip install -r /app/requirements.txt
 
 # Ejecutar el script de inicio cuando se inicie el contenedor
-CMD ["python", "/app/modelo_aleatoria.py"]
+CMD ["python", "/app/modelo_regresion_aleatoria.py"]
 
 
